@@ -1,4 +1,4 @@
-package brioal.test13.practise1_3;//package brioal.test13.practise1_3;
+
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -16,8 +16,8 @@ public class UrlConnecttionExample {
         System.out.println("URL used is :" + con.getURL().toExternalForm());
         System.out.println("Content Type :" + con.getContentType());
         System.out.println("Content Length :" + con.getContentLength());
-        System.out.println("Last Modified ��" + new Date(con.getLastModified()));
-        System.out.println("First Thress lines ��");
+        System.out.println("Last Modified :" + new Date(con.getLastModified()));
+        System.out.println("First Thress lines :");
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream(),"UTF-8"));
         for (int i = 0; i < 10; i++) {
             String line = in.readLine();

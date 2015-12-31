@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
-    <file url="file://$PROJECT_DIR$/data/A_log.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/data/B_log.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/A_log.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/B_log.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/brioal/test13/practise1_1/Client.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/brioal/test13/practise1_1/Service.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/brioal/test13/practise1_2/ReadFile.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/brioal/test13/practise1_3/UrlConnecttionExample.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/brioal/test13/practise1_4/EcondeTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/brioal/test13/practise2_1/MiniBrowser.java" charset="GBK" />

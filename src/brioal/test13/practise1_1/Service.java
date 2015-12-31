@@ -10,7 +10,7 @@ import java.net.Socket;
 public class Service {
     public static void main(String[] args) {
         try {
-            ServerSocket ss = new ServerSocket(4001);
+            ServerSocket ss = new ServerSocket(9527);
             Socket socket = ss.accept();
             BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             String messgae = "";

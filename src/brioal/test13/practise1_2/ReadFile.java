@@ -1,5 +1,3 @@
-package brioal.test13.practise1_2;//package brioal.test13.pracrise1_2;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -29,7 +27,7 @@ public class ReadFile extends JApplet implements ActionListener, Runnable {
         for (int i = 1; i <=N; i++) {
             choice.addItem(getParameter(String.valueOf(i)));
         }
-        button = new JButton("��ʼ��ȡ");
+        button = new JButton("??????");
         text = new JTextArea(12, 20);
         setLayout(new FlowLayout());
         button.addActionListener(this);
